@@ -1,0 +1,602 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		58B36EA221BC537900D766AA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58B36EA121BC537900D766AA /* AppDelegate.swift */; };
+		58B36EA421BC537900D766AA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58B36EA321BC537900D766AA /* ViewController.swift */; };
+		58B36EA721BC537900D766AA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 58B36EA521BC537900D766AA /* Main.storyboard */; };
+		58B36EAA21BC537900D766AA /* Globmedicus.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 58B36EA821BC537900D766AA /* Globmedicus.xcdatamodeld */; };
+		58B36EAC21BC537A00D766AA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 58B36EAB21BC537A00D766AA /* Assets.xcassets */; };
+		58B36EAF21BC537A00D766AA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 58B36EAD21BC537A00D766AA /* LaunchScreen.storyboard */; };
+		58B36EBA21BC537A00D766AA /* GlobmedicusTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58B36EB921BC537A00D766AA /* GlobmedicusTests.swift */; };
+		58B36EC521BC537A00D766AA /* GlobmedicusUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58B36EC421BC537A00D766AA /* GlobmedicusUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		58B36EB621BC537A00D766AA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 58B36E9621BC537900D766AA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 58B36E9D21BC537900D766AA;
+			remoteInfo = Globmedicus;
+		};
+		58B36EC121BC537A00D766AA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 58B36E9621BC537900D766AA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 58B36E9D21BC537900D766AA;
+			remoteInfo = Globmedicus;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		58B36E9E21BC537900D766AA /* Globmedicus.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Globmedicus.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		58B36EA121BC537900D766AA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		58B36EA321BC537900D766AA /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		58B36EA621BC537900D766AA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		58B36EA921BC537900D766AA /* Globmedicus.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Globmedicus.xcdatamodel; sourceTree = "<group>"; };
+		58B36EAB21BC537A00D766AA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		58B36EAE21BC537A00D766AA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		58B36EB021BC537A00D766AA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		58B36EB521BC537A00D766AA /* GlobmedicusTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GlobmedicusTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		58B36EB921BC537A00D766AA /* GlobmedicusTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GlobmedicusTests.swift; sourceTree = "<group>"; };
+		58B36EBB21BC537A00D766AA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		58B36EC021BC537A00D766AA /* GlobmedicusUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GlobmedicusUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		58B36EC421BC537A00D766AA /* GlobmedicusUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GlobmedicusUITests.swift; sourceTree = "<group>"; };
+		58B36EC621BC537A00D766AA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		58B36E9B21BC537900D766AA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		58B36EB221BC537A00D766AA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		58B36EBD21BC537A00D766AA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		58B36E9521BC537900D766AA = {
+			isa = PBXGroup;
+			children = (
+				58B36EA021BC537900D766AA /* Globmedicus */,
+				58B36EB821BC537A00D766AA /* GlobmedicusTests */,
+				58B36EC321BC537A00D766AA /* GlobmedicusUITests */,
+				58B36E9F21BC537900D766AA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		58B36E9F21BC537900D766AA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				58B36E9E21BC537900D766AA /* Globmedicus.app */,
+				58B36EB521BC537A00D766AA /* GlobmedicusTests.xctest */,
+				58B36EC021BC537A00D766AA /* GlobmedicusUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		58B36EA021BC537900D766AA /* Globmedicus */ = {
+			isa = PBXGroup;
+			children = (
+				58B36EA121BC537900D766AA /* AppDelegate.swift */,
+				58B36EA321BC537900D766AA /* ViewController.swift */,
+				58B36EA521BC537900D766AA /* Main.storyboard */,
+				58B36EAB21BC537A00D766AA /* Assets.xcassets */,
+				58B36EAD21BC537A00D766AA /* LaunchScreen.storyboard */,
+				58B36EB021BC537A00D766AA /* Info.plist */,
+				58B36EA821BC537900D766AA /* Globmedicus.xcdatamodeld */,
+			);
+			path = Globmedicus;
+			sourceTree = "<group>";
+		};
+		58B36EB821BC537A00D766AA /* GlobmedicusTests */ = {
+			isa = PBXGroup;
+			children = (
+				58B36EB921BC537A00D766AA /* GlobmedicusTests.swift */,
+				58B36EBB21BC537A00D766AA /* Info.plist */,
+			);
+			path = GlobmedicusTests;
+			sourceTree = "<group>";
+		};
+		58B36EC321BC537A00D766AA /* GlobmedicusUITests */ = {
+			isa = PBXGroup;
+			children = (
+				58B36EC421BC537A00D766AA /* GlobmedicusUITests.swift */,
+				58B36EC621BC537A00D766AA /* Info.plist */,
+			);
+			path = GlobmedicusUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		58B36E9D21BC537900D766AA /* Globmedicus */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 58B36EC921BC537A00D766AA /* Build configuration list for PBXNativeTarget "Globmedicus" */;
+			buildPhases = (
+				58B36E9A21BC537900D766AA /* Sources */,
+				58B36E9B21BC537900D766AA /* Frameworks */,
+				58B36E9C21BC537900D766AA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Globmedicus;
+			productName = Globmedicus;
+			productReference = 58B36E9E21BC537900D766AA /* Globmedicus.app */;
+			productType = "com.apple.product-type.application";
+		};
+		58B36EB421BC537A00D766AA /* GlobmedicusTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 58B36ECC21BC537A00D766AA /* Build configuration list for PBXNativeTarget "GlobmedicusTests" */;
+			buildPhases = (
+				58B36EB121BC537A00D766AA /* Sources */,
+				58B36EB221BC537A00D766AA /* Frameworks */,
+				58B36EB321BC537A00D766AA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				58B36EB721BC537A00D766AA /* PBXTargetDependency */,
+			);
+			name = GlobmedicusTests;
+			productName = GlobmedicusTests;
+			productReference = 58B36EB521BC537A00D766AA /* GlobmedicusTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		58B36EBF21BC537A00D766AA /* GlobmedicusUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 58B36ECF21BC537A00D766AA /* Build configuration list for PBXNativeTarget "GlobmedicusUITests" */;
+			buildPhases = (
+				58B36EBC21BC537A00D766AA /* Sources */,
+				58B36EBD21BC537A00D766AA /* Frameworks */,
+				58B36EBE21BC537A00D766AA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				58B36EC221BC537A00D766AA /* PBXTargetDependency */,
+			);
+			name = GlobmedicusUITests;
+			productName = GlobmedicusUITests;
+			productReference = 58B36EC021BC537A00D766AA /* GlobmedicusUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		58B36E9621BC537900D766AA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1010;
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = "Jonas Stefan Kürbis";
+				TargetAttributes = {
+					58B36E9D21BC537900D766AA = {
+						CreatedOnToolsVersion = 10.1;
+					};
+					58B36EB421BC537A00D766AA = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = 58B36E9D21BC537900D766AA;
+					};
+					58B36EBF21BC537A00D766AA = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = 58B36E9D21BC537900D766AA;
+					};
+				};
+			};
+			buildConfigurationList = 58B36E9921BC537900D766AA /* Build configuration list for PBXProject "Globmedicus" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 58B36E9521BC537900D766AA;
+			productRefGroup = 58B36E9F21BC537900D766AA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				58B36E9D21BC537900D766AA /* Globmedicus */,
+				58B36EB421BC537A00D766AA /* GlobmedicusTests */,
+				58B36EBF21BC537A00D766AA /* GlobmedicusUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		58B36E9C21BC537900D766AA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				58B36EAF21BC537A00D766AA /* LaunchScreen.storyboard in Resources */,
+				58B36EAC21BC537A00D766AA /* Assets.xcassets in Resources */,
+				58B36EA721BC537900D766AA /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		58B36EB321BC537A00D766AA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		58B36EBE21BC537A00D766AA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		58B36E9A21BC537900D766AA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				58B36EA421BC537900D766AA /* ViewController.swift in Sources */,
+				58B36EA221BC537900D766AA /* AppDelegate.swift in Sources */,
+				58B36EAA21BC537900D766AA /* Globmedicus.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		58B36EB121BC537A00D766AA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				58B36EBA21BC537A00D766AA /* GlobmedicusTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		58B36EBC21BC537A00D766AA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				58B36EC521BC537A00D766AA /* GlobmedicusUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		58B36EB721BC537A00D766AA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 58B36E9D21BC537900D766AA /* Globmedicus */;
+			targetProxy = 58B36EB621BC537A00D766AA /* PBXContainerItemProxy */;
+		};
+		58B36EC221BC537A00D766AA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 58B36E9D21BC537900D766AA /* Globmedicus */;
+			targetProxy = 58B36EC121BC537A00D766AA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		58B36EA521BC537900D766AA /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				58B36EA621BC537900D766AA /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		58B36EAD21BC537A00D766AA /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				58B36EAE21BC537A00D766AA /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		58B36EC721BC537A00D766AA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		58B36EC821BC537A00D766AA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		58B36ECA21BC537A00D766AA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Globmedicus/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.Globmedicus;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		58B36ECB21BC537A00D766AA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Globmedicus/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.Globmedicus;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		58B36ECD21BC537A00D766AA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = GlobmedicusTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.GlobmedicusTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Globmedicus.app/Globmedicus";
+			};
+			name = Debug;
+		};
+		58B36ECE21BC537A00D766AA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = GlobmedicusTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.GlobmedicusTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Globmedicus.app/Globmedicus";
+			};
+			name = Release;
+		};
+		58B36ED021BC537A00D766AA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = GlobmedicusUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.GlobmedicusUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Globmedicus;
+			};
+			name = Debug;
+		};
+		58B36ED121BC537A00D766AA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = GlobmedicusUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.GlobmedicusUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Globmedicus;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		58B36E9921BC537900D766AA /* Build configuration list for PBXProject "Globmedicus" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				58B36EC721BC537A00D766AA /* Debug */,
+				58B36EC821BC537A00D766AA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		58B36EC921BC537A00D766AA /* Build configuration list for PBXNativeTarget "Globmedicus" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				58B36ECA21BC537A00D766AA /* Debug */,
+				58B36ECB21BC537A00D766AA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		58B36ECC21BC537A00D766AA /* Build configuration list for PBXNativeTarget "GlobmedicusTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				58B36ECD21BC537A00D766AA /* Debug */,
+				58B36ECE21BC537A00D766AA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		58B36ECF21BC537A00D766AA /* Build configuration list for PBXNativeTarget "GlobmedicusUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				58B36ED021BC537A00D766AA /* Debug */,
+				58B36ED121BC537A00D766AA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		58B36EA821BC537900D766AA /* Globmedicus.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				58B36EA921BC537900D766AA /* Globmedicus.xcdatamodel */,
+			);
+			currentVersion = 58B36EA921BC537900D766AA /* Globmedicus.xcdatamodel */;
+			path = Globmedicus.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 58B36E9621BC537900D766AA /* Project object */;
+}
