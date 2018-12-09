@@ -15,6 +15,12 @@
 		58B36EAF21BC537A00D766AA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 58B36EAD21BC537A00D766AA /* LaunchScreen.storyboard */; };
 		58B36EBA21BC537A00D766AA /* GlobmedicusTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58B36EB921BC537A00D766AA /* GlobmedicusTests.swift */; };
 		58B36EC521BC537A00D766AA /* GlobmedicusUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58B36EC421BC537A00D766AA /* GlobmedicusUITests.swift */; };
+		58B36ED321BC54CA00D766AA /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 58B36ED221BC54CA00D766AA /* GoogleService-Info.plist */; };
+		58B36ED521BD631D00D766AA /* MenuIndividual.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58B36ED421BD631D00D766AA /* MenuIndividual.swift */; };
+		58B36ED721BD6F7F00D766AA /* PatienIDViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58B36ED621BD6F7F00D766AA /* PatienIDViewController.swift */; };
+		793BEA95965DD22988193506 /* Pods_Globmedicus.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A158805F61C82D9C6667A5E6 /* Pods_Globmedicus.framework */; };
+		980268F4FAF4436A4F39707A /* Pods_GlobmedicusUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 805705E78B2B12A33E06AEC6 /* Pods_GlobmedicusUITests.framework */; };
+		D0FB7317EB3BD0B0EE5315D2 /* Pods_GlobmedicusTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5015F946B1E6AE09A9BB2F94 /* Pods_GlobmedicusTests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +41,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1F50D8C010BFC8891FBFA36F /* Pods-GlobmedicusTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GlobmedicusTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-GlobmedicusTests/Pods-GlobmedicusTests.debug.xcconfig"; sourceTree = "<group>"; };
+		5015F946B1E6AE09A9BB2F94 /* Pods_GlobmedicusTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GlobmedicusTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		58B36E9E21BC537900D766AA /* Globmedicus.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Globmedicus.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		58B36EA121BC537900D766AA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		58B36EA321BC537900D766AA /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -49,6 +57,16 @@
 		58B36EC021BC537A00D766AA /* GlobmedicusUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GlobmedicusUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		58B36EC421BC537A00D766AA /* GlobmedicusUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GlobmedicusUITests.swift; sourceTree = "<group>"; };
 		58B36EC621BC537A00D766AA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		58B36ED221BC54CA00D766AA /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		58B36ED421BD631D00D766AA /* MenuIndividual.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuIndividual.swift; sourceTree = "<group>"; };
+		58B36ED621BD6F7F00D766AA /* PatienIDViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PatienIDViewController.swift; sourceTree = "<group>"; };
+		68BCBDF6D1466F0B03C27B6F /* Pods-Globmedicus.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Globmedicus.release.xcconfig"; path = "Pods/Target Support Files/Pods-Globmedicus/Pods-Globmedicus.release.xcconfig"; sourceTree = "<group>"; };
+		7F04BE105D95B265B4895B7B /* Pods-GlobmedicusTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GlobmedicusTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-GlobmedicusTests/Pods-GlobmedicusTests.release.xcconfig"; sourceTree = "<group>"; };
+		805705E78B2B12A33E06AEC6 /* Pods_GlobmedicusUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GlobmedicusUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		89A512BACABAE2A6D105EE70 /* Pods-GlobmedicusUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GlobmedicusUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-GlobmedicusUITests/Pods-GlobmedicusUITests.release.xcconfig"; sourceTree = "<group>"; };
+		9044AFEA230CB9E8F65E1CD3 /* Pods-Globmedicus.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Globmedicus.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Globmedicus/Pods-Globmedicus.debug.xcconfig"; sourceTree = "<group>"; };
+		A158805F61C82D9C6667A5E6 /* Pods_Globmedicus.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Globmedicus.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B8C5686A56F784C91B426031 /* Pods-GlobmedicusUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GlobmedicusUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-GlobmedicusUITests/Pods-GlobmedicusUITests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +74,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				793BEA95965DD22988193506 /* Pods_Globmedicus.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +82,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D0FB7317EB3BD0B0EE5315D2 /* Pods_GlobmedicusTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -70,12 +90,36 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				980268F4FAF4436A4F39707A /* Pods_GlobmedicusUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		36F58BC5EAC9384F2AF65554 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				9044AFEA230CB9E8F65E1CD3 /* Pods-Globmedicus.debug.xcconfig */,
+				68BCBDF6D1466F0B03C27B6F /* Pods-Globmedicus.release.xcconfig */,
+				1F50D8C010BFC8891FBFA36F /* Pods-GlobmedicusTests.debug.xcconfig */,
+				7F04BE105D95B265B4895B7B /* Pods-GlobmedicusTests.release.xcconfig */,
+				B8C5686A56F784C91B426031 /* Pods-GlobmedicusUITests.debug.xcconfig */,
+				89A512BACABAE2A6D105EE70 /* Pods-GlobmedicusUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		42BC4A25D12EA69272B6D5EA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A158805F61C82D9C6667A5E6 /* Pods_Globmedicus.framework */,
+				5015F946B1E6AE09A9BB2F94 /* Pods_GlobmedicusTests.framework */,
+				805705E78B2B12A33E06AEC6 /* Pods_GlobmedicusUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		58B36E9521BC537900D766AA = {
 			isa = PBXGroup;
 			children = (
@@ -83,6 +127,8 @@
 				58B36EB821BC537A00D766AA /* GlobmedicusTests */,
 				58B36EC321BC537A00D766AA /* GlobmedicusUITests */,
 				58B36E9F21BC537900D766AA /* Products */,
+				36F58BC5EAC9384F2AF65554 /* Pods */,
+				42BC4A25D12EA69272B6D5EA /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -101,11 +147,14 @@
 			children = (
 				58B36EA121BC537900D766AA /* AppDelegate.swift */,
 				58B36EA321BC537900D766AA /* ViewController.swift */,
+				58B36ED621BD6F7F00D766AA /* PatienIDViewController.swift */,
+				58B36ED421BD631D00D766AA /* MenuIndividual.swift */,
 				58B36EA521BC537900D766AA /* Main.storyboard */,
 				58B36EAB21BC537A00D766AA /* Assets.xcassets */,
 				58B36EAD21BC537A00D766AA /* LaunchScreen.storyboard */,
 				58B36EB021BC537A00D766AA /* Info.plist */,
 				58B36EA821BC537900D766AA /* Globmedicus.xcdatamodeld */,
+				58B36ED221BC54CA00D766AA /* GoogleService-Info.plist */,
 			);
 			path = Globmedicus;
 			sourceTree = "<group>";
@@ -135,9 +184,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 58B36EC921BC537A00D766AA /* Build configuration list for PBXNativeTarget "Globmedicus" */;
 			buildPhases = (
+				55E2859E56A2B690293478C1 /* [CP] Check Pods Manifest.lock */,
 				58B36E9A21BC537900D766AA /* Sources */,
 				58B36E9B21BC537900D766AA /* Frameworks */,
 				58B36E9C21BC537900D766AA /* Resources */,
+				68814A4F2E9034F0DCD91AB7 /* [CP] Embed Pods Frameworks */,
+				759C2A39B8ED8E97A58E791F /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -152,6 +204,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 58B36ECC21BC537A00D766AA /* Build configuration list for PBXNativeTarget "GlobmedicusTests" */;
 			buildPhases = (
+				2732ABEA674DA9A159BD8360 /* [CP] Check Pods Manifest.lock */,
 				58B36EB121BC537A00D766AA /* Sources */,
 				58B36EB221BC537A00D766AA /* Frameworks */,
 				58B36EB321BC537A00D766AA /* Resources */,
@@ -170,6 +223,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 58B36ECF21BC537A00D766AA /* Build configuration list for PBXNativeTarget "GlobmedicusUITests" */;
 			buildPhases = (
+				AD03BCF812918959FF4AA510 /* [CP] Check Pods Manifest.lock */,
 				58B36EBC21BC537A00D766AA /* Sources */,
 				58B36EBD21BC537A00D766AA /* Frameworks */,
 				58B36EBE21BC537A00D766AA /* Resources */,
@@ -233,6 +287,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				58B36EAF21BC537A00D766AA /* LaunchScreen.storyboard in Resources */,
+				58B36ED321BC54CA00D766AA /* GoogleService-Info.plist in Resources */,
 				58B36EAC21BC537A00D766AA /* Assets.xcassets in Resources */,
 				58B36EA721BC537900D766AA /* Main.storyboard in Resources */,
 			);
@@ -254,14 +309,133 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		2732ABEA674DA9A159BD8360 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-GlobmedicusTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		55E2859E56A2B690293478C1 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Globmedicus-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		68814A4F2E9034F0DCD91AB7 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Globmedicus/Pods-Globmedicus-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleUtilities/GoogleUtilities.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMSessionFetcher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleUtilities.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Globmedicus/Pods-Globmedicus-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		759C2A39B8ED8E97A58E791F /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Globmedicus/Pods-Globmedicus-resources.sh",
+				"${PODS_CONFIGURATION_BUILD_DIR}/FirebaseUI/FirebaseAuthUI.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/FirebaseAuthUI.bundle",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Globmedicus/Pods-Globmedicus-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AD03BCF812918959FF4AA510 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-GlobmedicusUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		58B36E9A21BC537900D766AA /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				58B36ED521BD631D00D766AA /* MenuIndividual.swift in Sources */,
 				58B36EA421BC537900D766AA /* ViewController.swift in Sources */,
 				58B36EA221BC537900D766AA /* AppDelegate.swift in Sources */,
 				58B36EAA21BC537900D766AA /* Globmedicus.xcdatamodeld in Sources */,
+				58B36ED721BD6F7F00D766AA /* PatienIDViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -434,6 +608,7 @@
 		};
 		58B36ECA21BC537A00D766AA /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9044AFEA230CB9E8F65E1CD3 /* Pods-Globmedicus.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -442,7 +617,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.Globmedicus;
+				PRODUCT_BUNDLE_IDENTIFIER = "-com.Globmedicus";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -451,6 +626,7 @@
 		};
 		58B36ECB21BC537A00D766AA /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 68BCBDF6D1466F0B03C27B6F /* Pods-Globmedicus.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -459,7 +635,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.Globmedicus;
+				PRODUCT_BUNDLE_IDENTIFIER = "-com.Globmedicus";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -468,6 +644,7 @@
 		};
 		58B36ECD21BC537A00D766AA /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1F50D8C010BFC8891FBFA36F /* Pods-GlobmedicusTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -488,6 +665,7 @@
 		};
 		58B36ECE21BC537A00D766AA /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7F04BE105D95B265B4895B7B /* Pods-GlobmedicusTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -508,6 +686,7 @@
 		};
 		58B36ED021BC537A00D766AA /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B8C5686A56F784C91B426031 /* Pods-GlobmedicusUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -527,6 +706,7 @@
 		};
 		58B36ED121BC537A00D766AA /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 89A512BACABAE2A6D105EE70 /* Pods-GlobmedicusUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
