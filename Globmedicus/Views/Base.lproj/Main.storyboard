@@ -204,7 +204,7 @@
                         <barButtonItem key="rightBarButtonItem" systemItem="add" id="Q5R-rP-bKp">
                             <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                             <connections>
-                                <action selector="AddButtonPressed:" destination="zuP-DY-09m" id="lsQ-om-6dm"/>
+                                <action selector="AddButtonPressed:" destination="zuP-DY-09m" id="MfR-58-gQc"/>
                             </connections>
                         </barButtonItem>
                     </navigationItem>
